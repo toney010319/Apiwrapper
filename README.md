@@ -8,9 +8,9 @@ HTTP METHOD: GET
 URL: http://localhost:3000/age?name=michael
 ```
 Parameters
-| Name    |     Description       | Required |
-|---------|-----------------------|----------|
-| `name`  | firstname of user     | true     |
+| Name    |         Description        | Required |
+|---------|----------------------------|----------|
+| name    | use a single first name    | true     |
 
 -----------------------------------------------
 ### Determine Gender
@@ -19,9 +19,9 @@ HTTP METHOD: GET
 URL: http://localhost:3000/gender?name=michael
 ```
 Parameters
-| Name    |     Description       | Required |
-|---------|-----------------------|----------|
-| `name`  | firstname of user     | true     |
+| Name    |         Description        | Required |
+|---------|----------------------------|----------|
+| name    | use a single first name    | true     |
 
 
 ------------------------------------------------
@@ -31,6 +31,6 @@ HTTP METHOD: GET
 URL: http://localhost:3000/nationality?name=michael
 ```
 Parameters
-| Name    |     Description       | Required |
-|---------|-----------------------|----------|
-| `name`  | firstname of user     | true     |
+| Name    |         Description        | Required |
+|---------|----------------------------|----------|
+| name    | use a single first name    | true     |
