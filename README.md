@@ -1,25 +1,36 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Name Prediction API
 
-Things you may want to cover:
+### Determine Age
+```
+HTTP METHOD: GET
+URL: http://localhost:3000/age?name=michael
+```
+Parameters
+| Name    |     Description       | Required |
+|---------|-----------------------|----------|
+| `name`  | firstname of user     | true     |
 
-* Ruby version
+-----------------------------------------------
+### Determine Gender
+```
+HTTP METHOD: GET
+URL: http://localhost:3000/gender?name=michael
+```
+Parameters
+| Name    |     Description       | Required |
+|---------|-----------------------|----------|
+| `name`  | firstname of user     | true     |
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# Apiwrapper
+------------------------------------------------
+### Determine Nationality
+```
+HTTP METHOD: GET
+URL: http://localhost:3000/nationality?name=michael
+```
+Parameters
+| Name    |     Description       | Required |
+|---------|-----------------------|----------|
+| `name`  | firstname of user     | true     |
